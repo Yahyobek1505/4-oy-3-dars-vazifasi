@@ -209,37 +209,28 @@ console.log(sum);
 // <==========================> 9-masala sharti. <==================>
 
 // let num = prompt("Besh xonali son kiriting" )
-// let num = 2548;
-// let counter = 0;
+let num = 20800;
+// let countZero = 0;
+
 // // Last number finder
 
-// let butun = num % 10;
-// console.log(butun);
-// let midleNum = Math.trunc(butun);
-// // Testing
-// if (midleNum % 2 == 0) {
-//   counter++;
+let butun = num % 10;
+console.log(butun);
+
+// Testing
+// if (midleNum == 0) 
+//   countZero++;
 // }
+a
+// All number finder
 
-// // All number finder
 
-// let all = num / 10;
-// let allNumber = Math.trunc(all)
-// console.log(allNumber);
-
-// let allButun = allNumber % 10;
-// console.log(allButun);
-// // Testing
-// if (allButun % 2 == 0) {
-//   counter++;
+// Testing
+// if (allButun == 0) {
+//   countZero++;
 // }
+// Second number finder
 
- // Second number finder
-
-// let twoNumber = allNumber / 10;
-// console.log(twoNumber);
-// let second = Math.trunc(twoNumber);
-// console.log(second);
 
  // Testing
 // if (second % 2 == 0) {
@@ -247,14 +238,6 @@ console.log(sum);
 // }
 
  // First number finder
-
-// let firstNumber = second % 10;
-// console.log(firstNumber);
-
-// let firsNumber = second / 10;
-// console.log(twoNumber);
-// let first = Math.trunc(firsNumber);
-// console.log(first);
 
 // Testing
 // if (first % 2 == 0) {
