@@ -208,9 +208,9 @@ console.log(sum);
 
 // <==========================> 9-masala sharti. <==================>
 
-// let num = prompt("Besh xonali son kiriting" )
-let num = 20800;
-// let countZero = 0;
+let num = prompt("Besh xonali son kiriting" )
+// let num = 90500;
+let countZero = 0;
 
 // // Last number finder
 
@@ -218,30 +218,63 @@ let butun = num % 10;
 console.log(butun);
 
 // Testing
-// if (midleNum == 0) 
-//   countZero++;
-// }
-a
-// All number finder
+if (butun == 0) {
+  countZero++;
+}
 
+// All number finder
+let allNumber = num / 10;
+let second = Math.trunc(allNumber);
+// console.log(second);
 
 // Testing
-// if (allButun == 0) {
-//   countZero++;
-// }
+if (allNumber == 0) {
+  countZero++;
+}
 // Second number finder
-
+let secondNumber = second % 10;
+console.log(secondNumber);
 
  // Testing
-// if (second % 2 == 0) {
-//   counter++;
-// }
+if (secondNumber == 0) {
+  countZero++;
+}
 
- // First number finder
+ // two number finder
+ let twoNumber = second / 10;
+let secondNum = Math.trunc(twoNumber);
+//  console.log(secondNum);
+
+
+let threeNum  = secondNum % 10;
+console.log(threeNum);
 
 // Testing
-// if (first % 2 == 0) {
-//   counter++;
-// }
-// alert(counter);
-// console.log(counter);
+if (twoNumber == 0) {
+  countZero++;
+}
+// 
+let oneNum  = secondNum / 10;
+let perNum = Math.trunc(oneNum);
+// console.log(perNum);
+
+//
+
+let firsNumber  = perNum % 10;
+console.log(firsNumber);
+// Testing
+if (firsNumber == 0) {
+  countZero++;
+}
+
+//
+
+let bigNum  = perNum / 10;
+let intNum = Math.trunc(bigNum);
+console.log(intNum);
+// Testing
+if (intNum == 0) {
+  countZero++;
+}
+alert(countZero);
+console.log(countZero);
